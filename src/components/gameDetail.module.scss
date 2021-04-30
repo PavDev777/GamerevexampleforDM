@@ -1,0 +1,51 @@
+.cardShadow {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.detail {
+  width: 80%;
+  border-radius: 1rem;
+  padding: 2rem 5rem;
+  background: white;
+  position: absolute;
+  left: 10%;
+  color: black;
+  img {
+    width: 100%;
+  }
+}
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  text-align: center;
+}
+.platforms {
+  display: flex;
+  justify-content: space-evenly;
+  img {
+    margin-right: 0.5rem;
+  }
+}
+.media {
+  margin-top: 5rem;
+  img {
+    width: 100%;
+  }
+}
+.description {
+  margin: 5rem 0rem;
+}
+.rating {
+  img {
+    height: 20px;
+    width: auto;
+  }
+}

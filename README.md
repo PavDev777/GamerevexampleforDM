@@ -1,0 +1,1 @@
+Simple react-redux app using Slice

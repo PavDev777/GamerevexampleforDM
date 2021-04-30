@@ -1,0 +1,39 @@
+.nav {
+  padding: 1rem 5rem;
+  text-align: center;
+}
+.search {
+  input {
+    width: 30%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-weight: bold;
+  }
+  button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    background: #ff7676;
+    border: none;
+    color: white;
+    &:hover {
+      background: #ff4646;
+    }
+  }
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  img {
+    margin-right: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
